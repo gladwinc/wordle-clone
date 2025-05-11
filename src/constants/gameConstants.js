@@ -16,10 +16,12 @@ export const LETTER_STATUS_CODE = {
 };
 
 export const LETTER_STATUS_COLORS = {
-  [LETTER_STATUS_CODE.CORRECT_POSITION]: "bg-green-400 border-green-400",
-  [LETTER_STATUS_CODE.WRONG_POSITION]: "bg-yellow-400 border-yellow-400",
-  [LETTER_STATUS_CODE.NOT_IN_WORD]: "bg-gray-400 border-gray-400",
-  DEFAULT: "bg-white border-gray-400 border-3",
+  [LETTER_STATUS_CODE.CORRECT_POSITION]:
+    "bg-green-500 border-green-500 text-white",
+  [LETTER_STATUS_CODE.WRONG_POSITION]:
+    "bg-yellow-500 border-yellow-500 text-white",
+  [LETTER_STATUS_CODE.NOT_IN_WORD]: "bg-gray-500 border-gray-500 text-white",
+  DEFAULT: "bg-white border-gray-500 border-3 text-black",
 };
 
 export const ERROR_MESSAGES = {

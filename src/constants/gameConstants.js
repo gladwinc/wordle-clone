@@ -17,11 +17,11 @@ export const LETTER_STATUS_CODE = {
 
 export const LETTER_STATUS_COLORS = {
   [LETTER_STATUS_CODE.CORRECT_POSITION]:
-    "bg-green-500 border-green-500 text-white",
+    "bg-green-600 border-green-600 text-white",
   [LETTER_STATUS_CODE.WRONG_POSITION]:
-    "bg-yellow-500 border-yellow-500 text-white",
-  [LETTER_STATUS_CODE.NOT_IN_WORD]: "bg-gray-500 border-gray-500 text-white",
-  DEFAULT: "bg-white border-gray-500 border-3 text-black",
+    "bg-yellow-600 border-yellow-600 text-white",
+  [LETTER_STATUS_CODE.NOT_IN_WORD]: "bg-gray-600 border-gray-600 text-white",
+  DEFAULT: "bg-white border-gray-600 border-3 text-black",
 };
 
 export const ERROR_MESSAGES = {

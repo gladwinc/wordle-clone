@@ -9,7 +9,7 @@ import {
   GAME_CONFIG,
 } from "../constants/gameConstants";
 
-export const useWorlde = () => {
+export const useWordle = () => {
   const [currentGuess, setCurrentGuess] = useState("");
   const [guesses, setGuesses] = useState([]);
   const [scores, setScores] = useState([]);
@@ -86,4 +86,4 @@ export const useWorlde = () => {
   };
 };
 
-export default useWorlde;
+export default useWordle;
